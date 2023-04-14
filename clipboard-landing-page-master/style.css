@@ -101,10 +101,18 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+
 }
 
-.col.right i {
-    width: 10px;
+.col.right div {
+    width: 45%;
+}
 
+.col.right div i {
+    font-size: 30px;
+    margin: 0px 10px;
+}
+
+.col i.fa-copyright {
+    font-size: 60px;
 }
