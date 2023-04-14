@@ -34,3 +34,45 @@ button{
 .btn-primary{
     border-radius: 80px;
 }
+.container.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+
+}
+.container.footer .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 10px solid black;
+}
+.container.footer .row .col{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.container.footer .row .left{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.infoGroup span{
+margin: 10px 10px;
+width: 110px;
+}
+.col.right{
+display: flex;
+justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.col.right i{
+width: 10px;
+}
