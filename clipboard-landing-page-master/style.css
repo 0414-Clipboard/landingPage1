@@ -1,15 +1,15 @@
-
-body{
-    margin: 0; 
+body {
+    margin: 0;
 }
 
-.container{
+.container {
     border: 10px solid black;
     margin: 10px auto;
 
 }
+
 /******************* FIRST **********************/
-.first{
+.first {
     text-align: center;
     padding: 20px;
     font-family: 'Bai Jamjuree', sans-serif;
@@ -25,7 +25,7 @@ body{
 
 }
 
-.mac {
+.macPic {
     width: 100%;
     height: auto;
 }
@@ -73,36 +73,37 @@ button {
 }
 
 
-button p{
+button p {
     margin: 3px 10px;
-    font-size: 12px; 
-    font-weight: 500;   
+    font-size: 12px;
+    font-weight: 500;
 }
 
-.ios{
+.ios {
     background-color: #0ecfa9;
     border: 2px #0dbd9a solid;
 }
 
-.mac{
+.mac {
     background-color: #4b59f5;
-    border: 2px #4653e0 solid;   
+    border: 2px #4653e0 solid;
 }
 
 /**************** FOUTH ******************/
-.fouth{
+.fouth {
     text-align: center;
 }
 
-.feature{
+.feature {
     border: 2px red solid;
     margin: 10px;
 }
 
-.logo{
+.logo {
     margin: 80px 30px;
     height: 40px;
     width: 100px;
+}
 
 .container.footer {
     display: flex;
@@ -157,7 +158,7 @@ button p{
     margin: 0px 10px;
 }
 
-.col i.fa-copyright{
- font-size: 55px;
+.col i.fa-copyright {
+    font-size: 55px;
 
 }
