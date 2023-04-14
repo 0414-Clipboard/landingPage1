@@ -3,7 +3,7 @@ body{
 }
 
 .container{
-    border: 5px black solid;
+    border: 10px solid black;
     margin: 10px auto;
     padding: 20px;
 }
@@ -47,7 +47,7 @@ button{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    border: 10px solid black;
+
 }
 .container.footer .row .col{
     display: flex;
@@ -82,5 +82,5 @@ width: 45%;
  margin: 0px 10px;
 }
 .col i.fa-copyright{
- font-size: 60px;
+ font-size: 55px;
 }
