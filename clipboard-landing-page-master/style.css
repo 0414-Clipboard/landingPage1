@@ -34,7 +34,10 @@ body {
 }
 
 .bg {
-    background-image: url("file:///Users/longtingho/landingPage1/clipboard-landing-page-master/images/bg-header-desktop.png");
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
 }
 
 #icon {
