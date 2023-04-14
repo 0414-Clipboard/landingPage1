@@ -1,40 +1,67 @@
+
 body{
     margin: 0; 
 }
 
 .container{
-    border: 5px black solid;
+    border: 10px solid black;
     margin: 10px auto;
+
 }
 /******************* FIRST **********************/
 .first{
     text-align: center;
-   
+    padding: 20px;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
-.bg{
+.snippets {
+    width: 500px;
+    text-align: center;
+}
+
+.snippets>p {
+    font-size: 12px;
+
+}
+
+.mac {
+    width: 100%;
+    height: auto;
+}
+
+.session3blk>p {
+    font-size: 12px;
+}
+
+.bg {
     background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
 }
 
-#icon{
-    margin:30px auto;
+#icon {
+    margin: 30px auto;
     height: 80px;
     width: 80px;
 
 }
 
-h4{
+h4 {
     font-size: 35px;
 }
 
-button{
+button {
     padding: 20px;
     margin: 30px 5px;
     font-size: 5px;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 80px;
 }
+
 
 button p{
     margin: 3px 10px;
@@ -66,4 +93,61 @@ button p{
     margin: 80px 30px;
     height: 40px;
     width: 100px;
+
+.container.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+
+}
+
+.container.footer .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.container.footer .row .col {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.container.footer .row .left {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.infoGroup span {
+    margin: 10px 10px;
+    width: 110px;
+}
+
+.col.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.col.right div {
+    width: 45%;
+}
+
+.col.right div i {
+    font-size: 30px;
+    margin: 0px 10px;
+}
+
+.col i.fa-copyright{
+ font-size: 55px;
+
 }
