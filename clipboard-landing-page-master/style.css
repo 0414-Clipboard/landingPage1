@@ -1,40 +1,66 @@
-body{
-    margin: 0; 
-}
-
-.container{
+.container {
     border: 5px black solid;
-    margin: 10px auto;
+    margin: 5px;
     padding: 20px;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
-.first{
+
+.snippets {
+    width: 500px;
     text-align: center;
-   
 }
 
-.bg{
-    background-image: url("file:///Users/longtingho/landingPage1/clipboard-landing-page-master/images/bg-header-desktop.png");
+.snippets>p {
+    font-size: 12px;
+
 }
 
-#icon{
-    margin:30px auto;
+.mac {
+    width: 100%;
+    height: auto;
+}
+
+.session3blk>p {
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+}
+
+.first {
+    text-align: center;
+
+}
+
+.bg {
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+}
+
+#icon {
+    margin: 30px auto;
     height: 80px;
     width: 80px;
 }
 
-h4{
+h4 {
     font-size: 35px;
 }
 
-button{
+button {
     padding: 20px;
     margin: 20px 5px;
     font-size: 5px;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 80px;
 }
-.container.footer{
+
+.container.footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -42,45 +68,51 @@ button{
     height: 20%;
 
 }
-.container.footer .row{
+
+.container.footer .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     border: 10px solid black;
 }
-.container.footer .row .col{
+
+.container.footer .row .col {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    
+
 }
-.container.footer .row .left{
+
+.container.footer .row .left {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
 }
 
-.infoGroup span{
-margin: 10px 10px;
-width: 110px;
+.infoGroup span {
+    margin: 10px 10px;
+    width: 110px;
 }
 
-.col.right{
+.col.right {
     display: flex;
-justify-content: center;
-        align-items: center;
-       
+    justify-content: center;
+    align-items: center;
+
 }
-.col.right div{
-width: 45%;
+
+.col.right div {
+    width: 45%;
 }
-.col.right div i{
- font-size: 30px;
- margin: 0px 10px;
+
+.col.right div i {
+    font-size: 30px;
+    margin: 0px 10px;
 }
-.col i.fa-copyright{
- font-size: 60px;
+
+.col i.fa-copyright {
+    font-size: 60px;
 }
