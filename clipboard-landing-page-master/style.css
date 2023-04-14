@@ -67,12 +67,17 @@ button{
 margin: 10px 10px;
 width: 110px;
 }
+
 .col.right{
-display: flex;
+    display: flex;
 justify-content: center;
-    align-items: center;
-    font-size: 35px;
+        align-items: center;
+       
 }
-.col.right i{
-width: 10px;
+.col.right div{
+width: 45%;
+}
+.col.right div i{
+ font-size: 30px;
+ margin: 0px 10px;
 }
