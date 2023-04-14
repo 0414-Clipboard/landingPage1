@@ -5,21 +5,22 @@ body{
 .container{
     border: 5px black solid;
     margin: 10px auto;
-    padding: 20px;
 }
+/******************* FIRST **********************/
 .first{
     text-align: center;
    
 }
 
 .bg{
-    background-image: url("file:///Users/longtingho/landingPage1/clipboard-landing-page-master/images/bg-header-desktop.png");
+    background-image: url("images/bg-header-desktop.png");
 }
 
 #icon{
     margin:30px auto;
     height: 80px;
     width: 80px;
+
 }
 
 h4{
@@ -28,9 +29,41 @@ h4{
 
 button{
     padding: 20px;
-    margin: 20px 5px;
+    margin: 30px 5px;
     font-size: 5px;
 }
 .btn-primary{
     border-radius: 80px;
+}
+
+button p{
+    margin: 3px 10px;
+    font-size: 12px; 
+    font-weight: 500;   
+}
+
+.ios{
+    background-color: #0ecfa9;
+    border: 2px #0dbd9a solid;
+}
+
+.mac{
+    background-color: #4b59f5;
+    border: 2px #4653e0 solid;   
+}
+
+/**************** FOUTH ******************/
+.fouth{
+    text-align: center;
+}
+
+.feature{
+    border: 2px red solid;
+    margin: 10px;
+}
+
+.logo{
+    margin: 80px 30px;
+    height: 40px;
+    width: 100px;
 }
