@@ -5,7 +5,7 @@
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
-.snippets {
+.title {
     width: 500px;
     text-align: center;
 }
@@ -16,6 +16,16 @@
 }
 
 .mac {
+    width: 100%;
+    height: auto;
+}
+
+.devices {
+    width: 600px;
+    height: auto;
+}
+
+.devices>img {
     width: 100%;
     height: auto;
 }
