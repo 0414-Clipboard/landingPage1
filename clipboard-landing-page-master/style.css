@@ -3,9 +3,15 @@ body{
 }
 
 .container{
-    border: 5px black solid;
+    /* border: 5px black solid; */
     margin: 10px auto;
 }
+
+.font-small{
+    font-size: 10px;
+    color: grey;
+}
+
 /******************* FIRST **********************/
 .first{
     text-align: center;
@@ -58,12 +64,18 @@ button p{
 }
 
 .feature{
-    border: 2px red solid;
-    margin: 10px;
+    /* border: 2px red solid; */
 }
 
 .logo{
     margin: 80px 30px;
-    height: 40px;
-    width: 100px;
+    height: 30px;
+    width: 120px;
+}
+
+
+.feature-logo{
+    width: 25px;
+    height: 25px;
+    margin: 30px 0;
 }
